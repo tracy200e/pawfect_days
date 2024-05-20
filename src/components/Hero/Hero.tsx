@@ -6,7 +6,7 @@ import clsx from "clsx";
 export const Hero: React.FC = () => {
   return (
     <>
-      <div className="flex items-center bg-secondary p-28 m-10 rounded-3xl">
+      <div className="flex items-center bg-secondary p-28 my-10 rounded-3xl">
         <div className="grid gap-y-6">
           <h1 className="text-6xl font-semibold">
             Book a trustworthy companion for{" "}
@@ -38,17 +38,17 @@ export const Hero: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="block">
+        <div className="overflow-visible">
           <Image
             src="../images/dog (1).svg"
             alt="Cute sitting dog"
-            width={521}
+            width={900}
             height={691}
           />
         </div>
       </div>
-      <div className="flex items-center bg-secondary p-28 m-10 rounded-3xl">
-        <div className="block">
+      <div className="flex items-center bg-secondary p-28 my-10 rounded-3xl overflow-visible">
+        <div>
           <Image
             src="../images/dog (2).svg"
             alt="Cute standing dog"
