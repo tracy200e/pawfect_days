@@ -12,7 +12,7 @@ This web app uses React and Next.js for server-side rendering and static website
 
 ### First draft (as of May 2024)
 
-![Landing Page Design](../pawfect_days/public/images/landing-page-design.png)
+![Landing Page Design](/public/images/landing-page-design.png)
 
 ## How to get started? 🏁
 
