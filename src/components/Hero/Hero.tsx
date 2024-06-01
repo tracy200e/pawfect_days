@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
                 <Image
                   src="../images/arrow-right-circle-icon.svg"
                   alt="right arrow icon"
-                  className="pl-1"
+                  className="pl-1 cursor-pointer"
                   width={28}
                   height={28}
                 />
