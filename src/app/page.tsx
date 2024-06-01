@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-tertiary font-sans px-20">
+    <main className="bg-tertiary font-sans px-32">
       <Navbar />
       <Hero />
     </main>
