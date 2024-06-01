@@ -62,9 +62,28 @@ export const Hero: React.FC = () => {
               <h1 className="text-4xl font-bold">Getting started?</h1>
               <h1 className="text-4xl font-bold">It's a walk in the park!</h1>
             </div>
-            <h3 className="text-xl">
-              Finding a dog walker should only take a few minutes.
-            </h3>
+            <h2 className="text-lg">
+              We're dedicated to providing the best experience for you and your
+              furry companions.
+            </h2>
+            <div className="grid grid-cols-2 gap-3">
+              <div className="flex gap-3 items-center">
+                <div className="w-4 h-4 bg-primary rounded-full"></div>
+                <h3 className="text-xl">Background checks</h3>
+              </div>
+              <div className="flex gap-3 items-center">
+                <div className="w-4 h-4 bg-primary rounded-full"></div>
+                <h3 className="text-xl">Regular check ins</h3>
+              </div>
+              <div className="flex gap-3 items-center">
+                <div className="w-4 h-4 bg-primary rounded-full"></div>
+                <h3 className="text-xl">Live route updates</h3>
+              </div>
+              <div className="flex gap-3 items-center">
+                <div className="w-4 h-4 bg-primary rounded-full"></div>
+                <h3 className="text-xl">Dietary requirements</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
