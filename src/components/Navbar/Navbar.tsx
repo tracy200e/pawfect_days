@@ -14,7 +14,7 @@ export const Navbar: React.FC = () => {
             height={40}
           />
           <div className="flex items-center justify-center gap-10">
-            <p className="text-primary">Log in</p>
+            <p className="text-primary cursor-pointer">Log in</p>
             <button className="flex items-center justify-center py-1 px-3 bg-primary rounded-3xl text-white text-sm border-solid border-4 border-orange-400">
               Walk a dog
               <Image

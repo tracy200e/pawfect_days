@@ -28,7 +28,7 @@ export const Hero: React.FC = () => {
                 />
               </button>
               <div className="flex items-center gap-1">
-                <p className="text-primary">Learn more</p>
+                <p className="text-primary cursor-pointer">Learn more</p>
                 <Image
                   src="../images/arrow-right-circle-icon.svg"
                   alt="right arrow icon"
